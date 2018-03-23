@@ -1,0 +1,66 @@
+<meta charset="UTF-8">
+
+<style>
+body{
+    background: #87CEFA;
+}
+form{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+</style>
+
+<form action="arquivo.php" method="POST" name="formulario">
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" value="">  
+    </div>
+    <br>
+    <div>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" value="">   
+    </div>
+    <br>
+    <div>
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade">
+    </div>
+    <br>
+    <div>
+        <label for="sexo">Sexo:</label>
+        <br>
+        
+        <input type="radio" name="sexo" id="masculino" value="Masculino">
+        <label for="masculino">Masculino</label>
+        
+        <input type="radio" name="sexo" id="feminino" value="Feminino">
+        <label for="feminino">Feminino</label>
+    </div>
+    <br>
+    <div>
+        <label for="msg">Mensagem:</label>
+        <br>
+        <textarea rows="5" cols="60" id="msg" name="msg"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="estuda">Estuda na fatec ?</label>
+        <select name="estuda" id="estuda">
+            <option value=""disabled selected>Escolha</option>
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+            <option value="gostaria">Gostaria de estudar</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar Dados</button>
+    </div>
+
+
+
+
+
+</form>

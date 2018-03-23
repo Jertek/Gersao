@@ -1,0 +1,24 @@
+<html>  
+    <head>
+    <meta charset="UTF-8">
+    <title>Projeto Frames </title>
+        <bgsound src = "arquivo.som" loop="-1">
+    </head>
+
+   
+    
+    <frameset cols="150,*">
+        
+        <frame  name="esquerdo" scrolling="auto" noresize target="superior direito" src="menu.html">
+            <frameset rows="24%,*"> 
+                <frame  name="superior direito" target="inferior direito" src="banner.html" scrolling="auto">
+                <frame name="inferior direito"  src="tabela.html">
+
+            </frameset>
+        <noframes>
+            <body>
+            </body>                         
+        </noframes>
+    </frameset>  
+</html>
+
