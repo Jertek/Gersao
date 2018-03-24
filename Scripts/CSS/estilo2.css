@@ -1,0 +1,23 @@
+h1{
+    color: blue;
+    font-family: Arial;
+}
+h2{
+    color: red;
+    font-family: Courier;
+}
+p{
+    color: green;
+
+}
+body{
+    
+    background-repeat: no-repeat;
+    background-position: center,center;
+    background-attachment: fixed;
+}    
+image{
+    padding: 20px,20px,20px,20px;
+    border-color: slategray;
+    border-image-width: 5px;
+}
