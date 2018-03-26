@@ -1,7 +1,7 @@
 * { text-align: center }
 h3{
     font-family: arial black;
-
+    padding-top: 50px;
 }
 h1{
     font-family: arial black;
@@ -15,8 +15,68 @@ p{
 body{
     margin-left: 200px;
     margin-right: 200px;
+    text-align: center;
 }
 head
 {
 
+}
+h2
+{
+    padding-top: 50px;
+}
+.logo img
+{
+    width:15% ;
+    
+    
+}
+.logo
+{
+    padding-top: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logo:hover
+{
+    transition: all .4s ease-in-out;
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ilove img
+{
+    width: 70%;
+}
+.ilove
+{
+    transition: all .4s ease-in-out;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ilove:hover
+{
+    
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.esquerda
+{
+
+    position: absolute;
+    top: 90%;
+    left: 5%;
+}
+.rodape img
+{
+    width: 50%;
+}
+.rodape
+{
+    padding: 20px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.rodape:hover
+{
+    transition: all .4s ease-in-out;   
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
