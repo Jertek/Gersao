@@ -1,18 +1,22 @@
+* { text-align: center }
 h3{
     font-family: arial black;
 
 }
 h1{
     font-family: arial black;
-
+    font-size: 50px;
 }
 p{
-    margin: 5px,50px,5px,50px;
+   
     font-family: aharoni;
+    text-align: center;
 }
 body{
-    
+    margin-left: 200px;
+    margin-right: 200px;
 }
-head{
+head
+{
 
 }
