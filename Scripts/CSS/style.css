@@ -1,82 +1,84 @@
-* { text-align: center }
-h3{
+* {
+    text-align: center
+}
+
+h3 {
     font-family: arial black;
     padding-top: 50px;
 }
-h1{
+
+h1 {
     font-family: arial black;
     font-size: 50px;
 }
-p{
-   
+
+p {
     font-family: aharoni;
     text-align: center;
 }
-body{
+
+body {
+    background: url('fundo.png');
     margin-left: 200px;
     margin-right: 200px;
     text-align: center;
 }
-head
-{
 
-}
-h2
-{
+head {}
+
+h2 {
     padding-top: 50px;
 }
-.logo img
-{
-    width:15% ;
-    
-    
+
+.logo img {
+    width: 15%;
 }
-.logo
-{
+
+.logo {
     padding-top: 30px;
     text-align: center;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.logo:hover
-{
+
+.logo:hover {
     transition: all .4s ease-in-out;
     box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.ilove img
-{
+
+.ilove img {
     width: 70%;
 }
-.ilove
-{
+
+.ilove {
+    background-color: rgb(255, 255, 255);
     transition: all .4s ease-in-out;
     padding: 20px;
     position: relative;
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.ilove:hover
-{
-    
+
+.ilove:hover {
     box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.esquerda
-{
 
+.esquerda {
     position: absolute;
     top: 90%;
     left: 5%;
 }
-.rodape img
-{
+
+.rodape img {
     width: 50%;
 }
-.rodape
-{
+
+.rodape {
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.rodape:hover
-{
-    transition: all .4s ease-in-out;   
+
+.rodape:hover {
+    transition: all .4s ease-in-out;
     box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
